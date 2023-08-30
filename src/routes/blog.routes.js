@@ -1,7 +1,7 @@
 import { Router } from 'express';
 const router = Router();
-import { ping } from '../controllers/blog.controller.js'
+import { blog } from '../controllers/blog.controller.js'
 
-router.get('/blog', ping)
+router.get('/blog', blog)
 
 export default router

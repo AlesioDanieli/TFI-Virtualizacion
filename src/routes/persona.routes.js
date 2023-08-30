@@ -1,7 +1,7 @@
-import {Router} from 'express'
+import { Router } from 'express';
+const router = Router();
+import { persona } from '../controllers/persona.controller.js'
 
-const router = Router()
-
-
+router.get('/persona', persona)
 
 export default router
