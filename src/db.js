@@ -4,7 +4,7 @@ export const pool = createPool({
     host: 'localhost',
     user: 'root',
     password: 'root',
-    port: 3307,
+    port: 3306,
     database: 'tfivirtualizacion_db'
 })
 
