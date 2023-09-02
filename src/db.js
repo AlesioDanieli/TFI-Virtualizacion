@@ -1,10 +1,10 @@
 import {createPool} from 'mysql2/promise'
 
 export const pool = createPool({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    port: 3306,
-    database: 'tfivirtualizacion_db'
+    host: process.env.host,
+    user: process.env.user,
+    password: process.env.password,
+    port: process.env.port,
+    database: process.env.database
 })
 
